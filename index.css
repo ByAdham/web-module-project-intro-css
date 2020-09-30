@@ -1,0 +1,88 @@
+* {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+/*Importing fonts */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+/*Making all fonts Roboto Mono*/
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+header{
+    border-color: yellow;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 100%%;
+    height: 20%
+    margin-top: 50px;
+}
+
+nav {
+    border-color: red;
+    border-style: solid;
+    border-width: thin;
+    width: 100%;
+    height: 200px;  
+    }
+
+nav a{
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    }
+
+/*coloring the nav buttons top and bottom */
+.plan{
+    background-color:#FF764E;
+}
+.learn{
+    background-color: #5ED3EB;
+}
+.involved{
+    background-color: #FFCD69;
+}
+
+div.top{
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: thin;
+    width: 100%;
+    height: 200px;  
+    }
+
+/*Placing the H1 */
+h1.yosemiteTitle {
+    display: inline-block;
+    font-family: 'Chelsea Market', cursive;
+    margin: 10px;
+}
+
+/*Placing the logo */
+.logo{
+    display: inline-block;
+    margin: 10px;
+}
+
+/*Manipulating the logo*/
+.logo{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.intro{
+    background-color: #DDB9A3;
+    width: 50%;
+
+
+}
